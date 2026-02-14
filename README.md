@@ -1,1 +1,11 @@
-git add .
+<<<<<<< HEAD
+function setup() {
+  createCanvas(1300, 1300);
+  background(100);
+}
+
+function draw() {
+  noStroke(0);
+  fill(200, 0, 100);
+  ellipse(mouseX, mouseY, 75, 125);
+}
